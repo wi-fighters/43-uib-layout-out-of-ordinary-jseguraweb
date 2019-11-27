@@ -2,3 +2,45 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    min-width: 500px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.bigger {
+    flex-grow: 10;
+}
+
+.action {
+    background-color: dodgerblue;
+}
+
+.thriller {
+    background-color: rgb(190, 178, 178);
+}
+
+.comedy {
+    background-color: rgb(255, 214, 30);
+}
+
+.horror {
+    background-color: black;
+    color: white;
+}
+
+.romance {
+    background-color: red;
+}
